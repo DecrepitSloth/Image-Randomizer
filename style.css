@@ -1,0 +1,22 @@
+.final {
+    height: 800px;
+    width: 800px;
+}
+
+.content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: grey;
+}
+
+button {
+    width: 250px;
+    height: 70px;
+    font-size: large;
+    margin: 20px;
+}
+
+body {
+    background: grey;
+}
