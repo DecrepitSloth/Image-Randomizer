@@ -1,3 +1,7 @@
+.final {
+    border: 10px solid black;
+}
+
 .content {
     align-items: center;
     display: flex;
@@ -9,7 +13,8 @@ button {
     width: 250px;
     height: 70px;
     font-size: large;
-    margin: 20px;
+    margin: 10px;
+    margin-top: 0px;
 }
 
 body {
