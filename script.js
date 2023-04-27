@@ -33,7 +33,7 @@ function getImage(imageArray) {
   
     let randomImage = imageArray[randomNum];
     let container = document.getElementsByClassName("container")[0]
-    let myImage = new Image(500, 500)
+    let myImage = new Image(560, 840)
     myImage.src = `${randomImage}`
   
     let finalImage = container.appendChild(myImage)
