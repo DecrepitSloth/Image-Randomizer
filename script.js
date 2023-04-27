@@ -3,7 +3,7 @@ let fileExtension = '.jpg'; // or whatever extension your images have
 let imageArray = [];
 
 // Loop through the images directory and get the pathway for each image
-for (let i = 1; i <= 10; i++) { // assuming you have 10 images named 1.jpg, 2.jpg, 3.jpg, etc.
+for (let i = 1; i <= 241; i++) { // assuming you have 10 images named 1.jpg, 2.jpg, 3.jpg, etc.
   let imagePath = `${imagesDirectory}/${i}${fileExtension}`;
   imageArray.push(imagePath);
 }
